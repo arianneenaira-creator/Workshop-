@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Falta um passo · Workshop Bridal Artist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --tinta:#1a1613;--petala:#f4ece0;--cafe:#5c4636;--carvao:#3a332c;
+    --champagne:#c9a96a;--champagne-claro:#e0c896;--linha:rgba(201,169,106,0.22);
+    --verde:#25d366;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Jost',sans-serif;background:var(--tinta);color:var(--petala);line-height:1.65;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:28px 20px}
+  .caixa{max-width:480px;width:100%;text-align:center}
+  .selo{font-weight:300;letter-spacing:0.5em;font-size:10.5px;text-transform:uppercase;color:var(--champagne);margin-bottom:22px}
+  .check{font-size:40px;margin-bottom:10px}
+  h1{font-family:'Cormorant Garamond';font-weight:500;font-size:clamp(30px,8vw,46px);line-height:1.08;margin-bottom:8px}
+  h1 em{font-style:italic;color:var(--champagne-claro)}
+  .sub{font-size:15px;font-weight:300;color:rgba(244,236,224,0.75);margin-bottom:28px;line-height:1.6}
+
+  .alerta{border:1px solid var(--champagne);background:linear-gradient(165deg,rgba(201,169,106,0.14),rgba(28,23,19,0.5));border-radius:18px;padding:26px 22px;margin-bottom:24px}
+  .alerta .a-tit{font-family:'Cormorant Garamond';font-size:24px;font-weight:600;color:var(--champagne-claro);line-height:1.2;margin-bottom:12px}
+  .alerta .a-txt{font-size:14.5px;font-weight:300;line-height:1.6;color:rgba(244,236,224,0.85)}
+  .alerta .a-txt b{color:var(--champagne-claro);font-weight:500}
+
+  .btn-grupo{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;background:var(--verde);color:#0a3d22;font-family:'Jost';font-size:16px;font-weight:500;letter-spacing:0.02em;padding:18px 24px;border-radius:100px;text-decoration:none;transition:all .3s;box-shadow:0 6px 24px rgba(37,211,102,0.25)}
+  .btn-grupo:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(37,211,102,0.35)}
+  .btn-grupo .wz{font-size:20px}
+
+  .passos{text-align:left;margin:26px auto 0;max-width:380px}
+  .passo{display:flex;gap:13px;align-items:flex-start;margin-bottom:16px}
+  .passo .num{flex-shrink:0;width:26px;height:26px;border-radius:50%;border:1px solid var(--champagne);color:var(--champagne-claro);font-size:13px;display:flex;align-items:center;justify-content:center;font-weight:500}
+  .passo .pt{font-size:13.5px;font-weight:300;color:rgba(244,236,224,0.75);line-height:1.5}
+  .passo .pt b{color:var(--champagne-claro);font-weight:500}
+
+  .rodape{margin-top:30px;font-size:12px;font-weight:300;color:rgba(244,236,224,0.4);line-height:1.6}
+  .rodape .assina{font-family:'Cormorant Garamond';font-style:italic;font-size:17px;color:rgba(201,169,106,0.7);display:block;margin-bottom:10px}
+</style>
+</head>
+<body>
+  <div class="caixa">
+    <div class="selo">Studio de Beleza Ariane Araújo</div>
+    <div class="check">🎉</div>
+    <h1>Recebemos o seu <em>pagamento</em></h1>
+    <p class="sub">Que alegria ter você no workshop. Mas presta atenção numa coisa, porque é importante de verdade.</p>
+
+    <div class="alerta">
+      <div class="a-tit">Seu lugar ainda não está garantido</div>
+      <div class="a-txt">O pagamento é só o primeiro passo. <b>É no grupo do WhatsApp que eu envio o link da reunião no Zoom</b>, os avisos e o material. Quem não entra no grupo fica de fora no dia, sem ter como receber o acesso. Então entra agora, antes de fechar essa página.</div>
+    </div>
+
+    <a class="btn-grupo" href="https://chat.whatsapp.com/KAA8wPZyZxA2OThhZ7EjSo?mode=gi_t" target="_blank">
+      <span class="wz">💬</span> Entrar no grupo agora
+    </a>
+
+    <div class="passos">
+      <div class="passo"><span class="num">1</span><span class="pt"><b>Toca no botão verde</b> aqui em cima pra entrar no grupo do WhatsApp.</span></div>
+      <div class="passo"><span class="num">2</span><span class="pt">Lá dentro você recebe o <b>link do Zoom</b> e todos os avisos do workshop.</span></div>
+      <div class="passo"><span class="num">3</span><span class="pt">No dia <b>18 de junho</b>, é só entrar pela reunião, com seu lugar garantido.</span></div>
+    </div>
+
+    <div class="rodape">
+      <span class="assina">Te vejo dia 18, Senhora.</span>
+      Se tiver qualquer dúvida, fala comigo no WhatsApp do estúdio.
+    </div>
+  </div>
+</body>
+</html>
