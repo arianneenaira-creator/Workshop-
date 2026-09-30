@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Apify__get-dataset-items",
+      "mcp__Notion__notion-fetch",
+      "mcp__Apify__get-actor-run",
+      "mcp__Notion__notion-query-data-sources",
+      "mcp__Apify__fetch-actor-details",
+      "mcp__Apify__search-actors",
+      "mcp__Notion__notion-search"
+    ]
+  }
+}
